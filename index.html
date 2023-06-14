@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet" />
+    <title>bootStrap Learning</title>
+  </head>
+  <body>
+    <div class="all bg-light">
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-light container justify-content-lg-space-between">
+        <div
+          class="navbar-brand ps-4 fs-3 fw-bold d-flex align-items-center justify-content-space-between">
+          <i class="fa-solid fa-basket-shopping navbar-brand fs-lg-1 pe-2"></i>
+          Store
+        </div>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#x">
+          <i class="fa-solid fa-angles-down"></i>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav" id="x">
+          <ul class="navbar-nav ms-md-auto me-md-5">
+            <li
+              class="nav-item d-flex justify-content-center align-items-center">
+              <span class="nav-link active p-1 p-md-2">Home</span>
+            </li>
+            <li
+              class="nav-item d-flex justify-content-center align-items-center">
+              <span class="nav-link p-1 p-md-2">About</span>
+            </li>
+            <li
+              class="nav-item d-flex justify-content-center align-items-center">
+              <span class="nav-link p-1 p-md-2">Offers</span>
+            </li>
+            <li
+              class="nav-item d-flex justify-content-center align-items-center">
+              <span class="nav-link p-1 p-md-2">Downloads</span>
+            </li>
+          </ul>
+          <div class="search ms-2 ps-2 pe-4 d-none d-md-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div
+            class="h-100 forma d-flex flex-column justify-content-space-between align-items-center">
+            <button
+              type="button"
+              class="me-auto btn mt-2 expand-lg login btn-dark fw-bold rounded-pill">
+              Log In
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="inputs-main bg-light me-md-0 container d-flex justify-content-end align-items-center">
+        <div
+          class="inputs-cont w-100 d-flex flex-column justify-content-space-between align-items-center">
+          <input
+            placeholder="E-mail"
+            class="input h-25 mt-2 form-control collapse"
+            type="username"
+            name=""
+            id="g" />
+          <input
+            placeholder="Password"
+            type="password"
+            class="h-25 mt-2 collapse form-control"
+            name=""
+            id="g" />
+          <button class="h-25 mt-2 mb-2 btn-dark collapse btn" id="g">
+            Send
+          </button>
+          <a class="collapse h-25 mb-1 new-account" id="g" href="#"
+            >Creat New Account ?</a
+          >
+        </div>
+      </div>
+
+      <div
+        class="landing text-center bg-dark text-light d-flex flex-column justify-content-center align-items-center">
+        <h1>Be One Of Us</h1>
+        <p class="text-white-50">That Is What You Need</p>
+        <button class="btn btn-light join ps-4 pe-4 fw-bold rounded-pill">
+          Join
+        </button>
+      </div>
+      <div class="features">
+        <div
+          class="container text-center mt-5 position-relative d-flex justify-content-center align-items-center flex-column">
+          <i class="fa-brands features-icon fa-3x fa-stack-overflow"></i>
+          <h2 class="fetch fw-bold">Products</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mt-5 ms-2 me-2">
+          <div
+            class="bg-light product col-md-6 col-lg-4 d-flex flex-column justify-content-space-around justify-content-md-center align-items-center">
+            <h5 class="mt-3 mb-1"><i class="fa-solid fa-signal"></i> Smart</h5>
+            <img src="./images/mob.png" class="p-image img-fluid mt-3" alt="" />
+            <p class="mt-2 mb-0 text-black-50">Sale up to 30%</p>
+            <button class="btn btn-dark">Check</button>
+          </div>
+          <div
+            class="bg-light product col-md-6 col-lg-4 d-flex flex-column justify-content-space-around justify-content-md-center align-items-center">
+            <h5 class="mt-3 mb-1">
+              <i class="fa-solid fa-handshake-angle"></i> Helpers
+            </h5>
+            <img
+              src="./images/vacum.png"
+              class="p-image img-fluid mt-3"
+              alt="" />
+            <p class="mt-2 mb-0 text-black-50">Sale up to 30%</p>
+            <button class="btn btn-dark">Check</button>
+          </div>
+          <div
+            class="bg-light product col-md-6 col-lg-4 d-flex flex-column justify-content-space-around justify-content-md-center align-items-center">
+            <h5 class="mt-3 mb-1"><i class="fa-solid fa-vest"></i> Fashion</h5>
+            <img
+              src="./images/boys.png"
+              class="p-image img-fluid mt-3"
+              alt="" />
+            <p class="mt-2 mb-0 text-black-50">Sale up to 25%</p>
+            <button class="btn btn-dark">Check</button>
+          </div>
+        </div>
+      </div>
+      <div class="container fe-cont">
+        <div class="features">
+          <div
+            class="container text-center mt-5 position-relative d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands features-icon fa-3x fa-stack-overflow"></i>
+            <h2 class="fetch fw-bold">We Create This</h2>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 mb-5 container text-center ul-con">
+        <ul
+          class="pt-2 pb-2 list-unstyled se-list d-flex justify-content-center align-items-center">
+          <li class="rounded-pill active">All</li>
+          <li class="rounded-pill">Design</li>
+          <li class="rounded-pill">Code</li>
+          <li class="rounded-pill">Photography</li>
+          <li class="rounded-pill">Apps</li>
+        </ul>
+      </div>
+      <div class="container-fluid">
+        <div class="presentation text-light row">
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="partion col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="im-cont" data-work="Application">
+              <img src="./images/2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div
+            class="btn-cont d-flex justify-content-center align-items-center mt-4">
+            <button class="show-more join ps-5 pe-5 pt-2 pb-2">
+              Show More
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container fe-cont">
+        <div class="features">
+          <div
+            class="container text-center position-relative d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands features-icon fa-3x fa-stack-overflow"></i>
+            <h2 class="fetch fw-bold">Ask For More</h2>
+          </div>
+        </div>
+        <div
+          class="t-cont text-center d-flex justify-content-center align-items-center mt-4">
+          <p class="text-black-50 w-50">
+            In English papers, you have to quote from the text, or actual words
+            in the book you're writing about. You might hear people talk about
+            text in contrast to pictures. For example, a book's text and its
+            pictures
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid bg-white pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-center text-md-start">
+              <h3 class="mt-3 mb-3 fw-bold">Smoothlly</h3>
+              <p class="text-black-50 fs-6">
+                In English papers, you have to quote from the text, or actual
+                words in the book you're writing about. You might hear people
+                talk about.
+              </p>
+              <p class="text-black-50 fs-6">
+                In English papers, you have to quote from the text, or actual
+                words in the book you're writing about. You might hear people
+                talk about text in contrast to pictures.
+              </p>
+              <button class="show-more join ps-5 pe-5 pt-2 pb-2">
+                Order One
+              </button>
+            </div>
+            <div class="col-lg-8 d-flex mt-5 mt-lg-0">
+              <img src="./images/screen.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team text-center mt-5 container">
+        <h2 class="fw-bold">Meet The Team</h2>
+        <p class="text-black-50">
+          words in the book you're writing about. You might hear people talk
+          about text in contrast to pictures, words in the book you're writin,
+          In English papers, you have to quote from .
+        </p>
+      </div>
+      <div class="container pb-5">
+        <div class="row mt-5">
+          <div
+            class="box-cont col-sm-6 col-md-4 col-lg-3 mb-sm-4 mb-md-2 mb-lg-1">
+            <img src="./images/macha.jpg" class="img-fluid" alt="" />
+            <div class="before" data-go="Love Macha"></div>
+            <p class="p-3 bg-white text-center text-black-50">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </div>
+          <div class="box-cont col-sm-6 col-md-4 col-lg-3">
+            <img src="./images/macha.jpg" class="img-fluid" alt="" />
+            <div class="before" data-go="Love Macha"></div>
+            <p class="p-3 bg-white text-center text-black-50">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </div>
+          <div class="box-cont col-sm-6 col-md-4 col-lg-3">
+            <img src="./images/macha.jpg" class="img-fluid" alt="" />
+            <div class="before" data-go="Love Macha"></div>
+            <p class="p-3 bg-white text-center text-black-50">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </div>
+          <div class="box-cont col-sm-6 col-md-4 col-lg-3">
+            <img src="./images/macha.jpg" class="img-fluid" alt="" />
+            <div class="before" data-go="Love Macha"></div>
+            <p class="p-3 bg-white text-center text-black-50">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sponsers bg-white">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+              <img src="./images/tech-1.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+              <img src="./images/tech-2.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+              <img src="./images/tech-3.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+              <img src="./images/tech-4.png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+              <img src="./images/tech-3 (1).png" alt="" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+              <img src="./images/tech-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="proj-start">
+        <div class="container text-center p-4">
+          <h3 class="text-light">Start Your Project Now</h3>
+          <p class="text-white-50">
+            I don't understand how we got by those troops understand how we got
+            by those
+          </p>
+          <button class="btn btn-dark rounded-pill ps-5 pe-5 mt-4 mb-5">
+            Start Project
+          </button>
+        </div>
+      </div>
+      <div class="features pt-5">
+        <div
+          class="container text-center mt-5 position-relative d-flex justify-content-center align-items-center flex-column">
+          <i class="fa-brands features-icon fa-3x fa-stack-overflow"></i>
+          <h2 class="fetch fw-bold">Read Our Blog</h2>
+          <p class="text-black-50">NEW STORIES</p>
+        </div>
+      </div>
+      <div class="card-cont mt-5">
+        <div class="container">
+          <div
+            class="row d-flex justify-content-space-between align-items-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="cards bg-white">
+                <img src="./images/blog-1.jpg" class="img-fluid" alt="" />
+                <p class="text-start pt-3 ps-3 mb-0">Sep 02, 2023</p>
+                <h5 class="ps-3 mt-1">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="cards bg-white">
+                <img src="./images/blog-2.jpg" class="img-fluid" alt="" />
+                <p class="text-start pt-3 ps-3 mb-0">Sep 02, 2023</p>
+                <h5 class="ps-3 mt-1">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="cards bg-white">
+                <img src="./images/blog-3.jpg" class="img-fluid" alt="" />
+                <p class="text-start pt-3 ps-3 mb-0">Sep 02, 2023</p>
+                <h5 class="ps-3 mt-1">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center last-btn">
+        <button class="btn btn-dark rounded-pill ps-3 pe-3 mt-5 mb-5">
+          More Stories
+        </button>
+      </div>
+      <div class="container pb-5">
+        <div action="" class="row">
+          <div
+            class="pt-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center">
+            <h5 class="text-black fw-bold">Subscribe to our Newsletter:</h5>
+          </div>
+          <div
+            class="pt-4 col-sm-8 col-md-6 d-flex justify-content-center align-items-center">
+            <input
+              type="text"
+              class="bg-transparent my-input w-100 my-inp"
+              placeholder="Enter E-mail Here" />
+          </div>
+          <div
+            class="l-btn col-md-2 d-flex pt-4 justify-content-center align-items-center">
+            <button class="btn btn-dark rounded-pill">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/all.min.js"></script>
+  </body>
+</html>

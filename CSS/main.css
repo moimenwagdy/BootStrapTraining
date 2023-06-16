@@ -21,7 +21,6 @@ html {
 
 body {
   font-family: "Roboto", sans-serif !important;
-  height: 5000px;
 }
 
 [aria-expanded="true"] {
@@ -37,6 +36,7 @@ body {
 .navbar {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  transition-duration: 100ms;
 }
 
 .navbar-brand {
@@ -273,7 +273,7 @@ body {
 
 .my-input {
   border: none !important;
-  border-bottom: 1px solid var(--new) !important;
+  border-bottom: 1px solid var(--white) !important;
   box-shadow: none !important;
 }
 
@@ -286,6 +286,9 @@ body {
 }
 
 .l-btn button:hover {
-  background-color: var(--new) !important;
-  color: white !important;
+  border: 1px solid var(--black) !important;
+}
+
+.sub-cont {
+  background-color: var(--new);
 }
